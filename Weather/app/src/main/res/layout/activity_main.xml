@@ -199,7 +199,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="9dp"
                 android:background="@color/colorGreenButton"
                 android:text="@string/green_button"
                 android:width="20dp"
@@ -213,8 +213,8 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
             android:layout_marginTop="-90dp"
-            android:background="@color/colorGreenButton"
-            android:text="@string/green_button"
+            android:background="@color/colorRedButton"
+            android:text="@string/red_button"
             android:width="20dp"
             android:height="140dp"
             android:layout_marginLeft="10dp"
@@ -224,6 +224,7 @@
             android:orientation="horizontal"
             android:layout_marginLeft="110dp"
             android:layout_marginTop="-138dp"
+            android:layout_marginRight="5dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
@@ -232,8 +233,17 @@
                 android:layout_height="wrap_content"
                 android:background="@color/colorGreenButton"
                 android:text="@string/green_button"
-                android:width="20dp"
+                android:width="110dp"
                 android:height="80dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorRedButton"
+                android:text="@string/red_button"
+                android:width="70dp"
+                android:height="80dp"
+                android:layout_marginLeft="10dp"
                 />
         </LinearLayout>
     </LinearLayout>
