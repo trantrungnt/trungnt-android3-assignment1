@@ -183,8 +183,8 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@color/colorBlueButton"
-                android:text="@string/blue_button"
+                android:background="@color/colorRedButton"
+                android:text="@string/red_button"
                 android:width="20dp"
                 android:layout_marginLeft="10dp"
                 />
@@ -201,8 +201,8 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@color/colorRedButton"
-                android:text="@string/red_button"
+                android:background="@color/colorGreenButton"
+                android:text="@string/green_button"
                 android:width="20dp"
                 android:height="100dp"
                 android:layout_marginLeft="10dp"
