@@ -1,63 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <LinearLayout
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:layout_width="wrap_content"
-        android:layout_marginTop="10sp"
         android:layout_height="wrap_content">
 
-        <Button
+        <LinearLayout
+            android:orientation="horizontal"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:background="@color/colorRedButton"
-            android:text="@string/red_button"
-            android:width="140sp"
-            />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:width="135sp"
-            android:background="@color/colorBlueButton"
-            android:text="@string/blue_button"
-         />
-    </LinearLayout>
+            android:layout_marginTop="10sp"
+            android:layout_height="wrap_content">
 
-    <LinearLayout
-        android:orientation="horizontal"
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@color/colorRedButton"
+                android:text="@string/red_button"
+                android:width="140sp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:width="132sp"
+                android:background="@color/colorBlueButton"
+                android:text="@string/blue_button"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@color/colorGreenButton"
+                android:text="@string/green_button"
+                android:width="30sp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:width="50sp"
+                android:background="@color/colorBlueButton"
+                android:text="@string/blue_button"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@color/colorGreenButton"
+                android:text="@string/green_button"
+                android:width="30sp"
+        </LinearLayout>
+    </LinearLayout>
+    <Button
         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="10sp"
-        android:layout_height="wrap_content">
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:background="@color/colorGreenButton"
-            android:text="@string/green_button"
-            android:width="30sp"
-            />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:width="50sp"
-            android:background="@color/colorBlueButton"
-            android:text="@string/blue_button"
-            />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:background="@color/colorGreenButton"
-            android:text="@string/green_button"
-            android:width="30sp"
-    </LinearLayout>
+        android:background="@color/colorGreenButton"
+        android:text="@string/green_button"
+        android:height="110sp"
+        android:width="25sp"/>
 
 
 
