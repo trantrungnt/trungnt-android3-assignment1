@@ -15,4 +15,21 @@
         android:layout_marginTop="30sp"
         android:textAllCaps="true"
     />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/tempature"
+         />
+        </LinearLayout>
+    </LinearLayout>
 </LinearLayout>
