@@ -11,5 +11,6 @@
     <color name="colorHeaderText">#FFEB3B</color>
     <color name="colorBlueActivity">#0091EA</color>
     <color name="colorTextLocationHaNoi">#FFFF00</color>
-    <color name="colorTextTempatureStatus">#FAFAFA</color>
+    <color name="colorTextTempatureStatus">#FAFAFA</color>\
+    <color name="colorTextTemautureBackGround">#F5F5F5</color>
 </resources>
