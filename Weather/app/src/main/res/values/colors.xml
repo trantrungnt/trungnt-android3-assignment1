@@ -9,5 +9,6 @@
     <color name="colorRedActivity">#FF3D00</color>
     <color name="colorTextLabel">#76FF03</color>
     <color name="colorHeaderText">#FFEB3B</color>
-    <color name="colorBlueActivity">#40C4FF</color>
+    <color name="colorBlueActivity">#2979FF</color>
+    <color name="colorTextLocationHaNoi">#FFFF00</color>
 </resources>

@@ -11,4 +11,6 @@
     <string name="label_hobby_music">Your hobby's music: </string>
     <string name="label_hobby_sport">Your hobby's sport: </string>
     <string name="label_back_button">BACK</string>
+    <string name="label_location_hanoi">Ha Noi</string>
+    <string name="label_temperature_status">Sunny</string>
 </resources>
