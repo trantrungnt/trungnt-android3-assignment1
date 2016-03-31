@@ -8,4 +8,5 @@
     <string name="label_school">School: </string>
     <string name="label_year_of_birthday">Year of birthday: </string>
     <string name="label_gender">Gender: </string>
+    <string name="label_hobby_music">Your hobby's music: </string>
 </resources>

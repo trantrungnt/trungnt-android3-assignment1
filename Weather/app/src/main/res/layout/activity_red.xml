@@ -140,6 +140,51 @@
                 android:layout_marginLeft="20dp"
                 android:src="@drawable/MusicTelevision"
                 />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_hobby_music"
+                    android:textColor="@color/colorTextLabel"
+                    android:textSize="18sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+ Bachkstreet Boys"
+                    android:textColor="@color/colorTextLabel"
+                    android:textSize="18sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+ N'Sync"
+                    android:textColor="@color/colorTextLabel"
+                    android:textSize="18sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+ Oli.P"
+                    android:textColor="@color/colorTextLabel"
+                    android:textSize="18sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+ POP, ROCK ..."
+                    android:textColor="@color/colorTextLabel"
+                    android:textSize="18sp"
+                    />
+            </LinearLayout>
+
+
+
         </LinearLayout>
         </LinearLayout>
 </ScrollView>
