@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">Main Activity</string>
+    <string name="app_name">The weather</string>
     <string name="blue_button">B</string>
     <string name="red_button">R</string>
     <string name="green_button">G</string>
+    <string name="app_name_red_activity">Red Activity</string>
 </resources>
