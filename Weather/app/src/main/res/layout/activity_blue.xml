@@ -41,5 +41,13 @@
                 android:layout_marginLeft="20dp"
             />
         </LinearLayout>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/sun"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="40dp"
+        />
     </LinearLayout>
 </LinearLayout>
