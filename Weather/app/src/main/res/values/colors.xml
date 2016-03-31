@@ -8,4 +8,5 @@
     <color name="colorGreenButton">#76FF03</color>
     <color name="colorRedActivity">#FF3D00</color>
     <color name="colorTextLabel">#76FF03</color>
+    <color name="colorHeaderText">#FFEB3B</color>
 </resources>
