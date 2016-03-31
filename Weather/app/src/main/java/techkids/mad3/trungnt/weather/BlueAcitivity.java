@@ -16,6 +16,8 @@ public class BlueAcitivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_blue);
+        //goi phuong thuc xu ly goi su kien click nut btnBack de mo MainActivity
+        proceesMainActivity();
     }
 
     public void proceesMainActivity()
