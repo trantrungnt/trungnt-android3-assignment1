@@ -20,7 +20,7 @@
                     android:layout_height="100dp"
                     android:layout_marginTop="30dp"
                     android:layout_marginRight="8dp"
-                    android:layout_marginLeft="30dp"
+                    android:layout_marginLeft="20dp"
                     android:src="@drawable/TrungNT"
                 />
                  <LinearLayout
@@ -51,6 +51,69 @@
                              />
                      </LinearLayout>
 
+                     <LinearLayout
+                         android:orientation="horizontal"
+                         android:layout_marginLeft="1dp"
+                         android:layout_marginTop="5dp"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content">
+
+                         <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="@string/label_school"
+                             android:textColor="@color/colorTextLabel"
+                             android:textSize="18sp"
+                             />
+                         <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="TechKids School"
+                             android:textColor="@color/colorTextLabel"
+                             android:textSize="18sp"
+                     </LinearLayout>
+
+                     <LinearLayout
+                         android:orientation="horizontal"
+                         android:layout_marginTop="5dp"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content">
+
+                         <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="@string/label_year_of_birthday"
+                             android:textColor="@color/colorTextLabel"
+                             android:textSize="18sp"
+                             />
+                         <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="1986"
+                             android:textColor="@color/colorTextLabel"
+                             android:textSize="18sp"
+                     </LinearLayout>
+
+                     <LinearLayout
+                         android:orientation="horizontal"
+                         android:layout_marginTop="5dp"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content">
+
+                         <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="@string/label_gender"
+                             android:textColor="@color/colorTextLabel"
+                             android:textSize="18sp"
+                             />
+                         <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="Male"
+                             android:textColor="@color/colorTextLabel"
+                             android:textSize="18sp"
+                     </LinearLayout>
                  </LinearLayout>
          </LinearLayout>
 
