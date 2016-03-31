@@ -4,4 +4,8 @@
     <string name="red_button">R</string>
     <string name="green_button">G</string>
     <string name="app_name_red_activity">Red Activity</string>
+    <string name="label_name_author">Full name: </string>
+    <string name="label_school">School: </string>
+    <string name="label_year_of_birthday">Year of birthday: </string>
+    <string name="label_gender">Gender: </string>
 </resources>
