@@ -24,7 +24,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
-
+                    android:background="@color/colorRedButton"
                     android:text="@string/red_button"
                     android:width="140dp"
                     android:id="@+id/btnRed0"
