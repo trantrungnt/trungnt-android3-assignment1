@@ -8,8 +8,8 @@
     <string name="label_school">School: </string>
     <string name="label_year_of_birthday">Year of birthday: </string>
     <string name="label_gender">Gender: </string>
-    <string name="label_hobby_music">Your hobby's music: </string>
-    <string name="label_hobby_sport">Your hobby's sport: </string>
+    <string name="label_hobby_music">Your hobby about music: </string>
+    <string name="label_hobby_sport">Your hobby about sport: </string>
     <string name="label_back_button">BACK</string>
     <string name="label_location_hanoi">Ha Noi</string>
     <string name="label_temperature_status">Sunny</string>

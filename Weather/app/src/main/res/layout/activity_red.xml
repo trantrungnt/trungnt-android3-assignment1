@@ -21,7 +21,7 @@
                     android:layout_marginTop="30dp"
                     android:layout_marginRight="8dp"
                     android:layout_marginLeft="20dp"
-                    android:src="@drawable/TrungNT"
+                    android:src="@drawable/trungnt"
                 />
                  <LinearLayout
                      android:orientation="vertical"
@@ -70,7 +70,7 @@
                              android:layout_height="wrap_content"
                              android:text="TechKids School"
                              android:textColor="@color/colorTextLabel"
-                             android:textSize="18sp"
+                             android:textSize="18sp"/>
                      </LinearLayout>
 
                      <LinearLayout
@@ -91,7 +91,7 @@
                              android:layout_height="wrap_content"
                              android:text="1986"
                              android:textColor="@color/colorTextLabel"
-                             android:textSize="18sp"
+                             android:textSize="18sp"/>
                      </LinearLayout>
 
                      <LinearLayout
@@ -112,7 +112,7 @@
                              android:layout_height="wrap_content"
                              android:text="Male"
                              android:textColor="@color/colorTextLabel"
-                             android:textSize="18sp"
+                             android:textSize="18sp"/>
                      </LinearLayout>
                  </LinearLayout>
          </LinearLayout>
@@ -138,7 +138,7 @@
                 android:layout_marginTop="1dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginLeft="20dp"
-                android:src="@drawable/MusicTelevision"
+                android:src="@drawable/mtv"
                 />
 
             <LinearLayout
