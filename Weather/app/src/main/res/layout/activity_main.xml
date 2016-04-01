@@ -27,6 +27,7 @@
                     android:background="@color/colorRedButton"
                     android:text="@string/red_button"
                     android:width="140dp"
+                    android:id="@+id/btnRed0"
                     />
                 <Button
                     android:layout_width="wrap_content"
@@ -96,6 +97,7 @@
             android:background="@color/colorRedButton"
             android:text="@string/red_button"
             android:height="158dp"
+            android:id="@+id/btnRed1"
             android:width="100dp"/>
         <Button
             android:layout_width="wrap_content"
@@ -106,6 +108,7 @@
             android:background="@color/colorRedButton"
             android:text="@string/red_button"
             android:height="158dp"
+            android:id="@+id/btnRed2"
             android:width="20dp"/>
 
         <LinearLayout
@@ -122,6 +125,7 @@
                 android:background="@color/colorRedButton"
                 android:text="@string/red_button"
                 android:height="80dp"
+                android:id="@+id/btnRed3"
                 android:width="150dp"/>
 
             <LinearLayout
@@ -194,6 +198,7 @@
                     android:text="@string/red_button"
                     android:width="20dp"
                     android:layout_marginLeft="10dp"
+                    android:id="@+id/btnRed4"
                     />
 
             </LinearLayout>
@@ -220,6 +225,7 @@
             android:width="20dp"
             android:height="140dp"
             android:layout_marginLeft="10dp"
+            android:id="@+id/btnRed5"
             />
 
         <LinearLayout
@@ -246,6 +252,7 @@
                 android:width="70dp"
                 android:height="80dp"
                 android:layout_marginLeft="10dp"
+                android:id="@+id/btnRed6"
                 />
         </LinearLayout>
 
