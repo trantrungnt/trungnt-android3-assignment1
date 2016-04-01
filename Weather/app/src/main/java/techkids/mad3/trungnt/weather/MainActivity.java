@@ -75,22 +75,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         /////////////////////////////////////////////////////////////////////////////////////////
         //Xet dieu kien de dung phuong thuc click phu hop cho tung nut Button
         int id = v.getId();
-        /*switch (id)
-        {
-            case R.id.btnRed0:
-                OpenRedActivity();
-            break;
 
-        }*/
-        btnRed0.setOnClickListener(new View.OnClickListener() {
+        /*btnRed0.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 OpenRedActivity();
             }
-        });
+        });*/
 
         //kiem co phai la nut btnRed khong?
-        /*if ((id == R.id.btnRed0)
+        if ((id == R.id.btnRed0)
             || (id == R.id.btnRed1)
             || (id == R.id.btnRed2)
             || (id == R.id.btnRed3)
@@ -125,7 +119,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         {
             //dong MainActivity
             this.finish();
-        }*/
+        }
     }
 
     private void OpenBlueActvity()
