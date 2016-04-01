@@ -36,6 +36,7 @@
                     android:width="132dp"
                     android:background="@color/colorBlueButton"
                     android:text="@string/blue_button"
+                    android:id="@+id/btnBlue0"
                     />
             </LinearLayout>
 
@@ -60,6 +61,7 @@
                     android:width="50dp"
                     android:background="@color/colorBlueButton"
                     android:text="@string/blue_button"
+                    android:id="@+id/btnBlue1"
                     />
                 <Button
                     android:layout_width="wrap_content"
@@ -79,6 +81,7 @@
             android:background="@color/colorBlueButton"
             android:text="@string/blue_button"
             android:height="108dp"
+            android:id="@+id/btnBlue2"
             android:width="20dp"/>
     </LinearLayout>
 
@@ -154,6 +157,7 @@
                     android:text="@string/blue_button"
                     android:width="20dp"
                     android:height="70dp"
+                    android:id="@+id/btnBlue3"
                     />
             </LinearLayout>
         </LinearLayout>
@@ -190,6 +194,7 @@
                     android:text="@string/blue_button"
                     android:width="100dp"
                     android:layout_marginLeft="10dp"
+                    android:id="@+id/btnBlue4"
                     />
                 <Button
                     android:layout_width="wrap_content"
@@ -243,6 +248,7 @@
                 android:text="@string/blue_button"
                 android:width="110dp"
                 android:height="80dp"
+                android:id="@+id/btnBlue5"
                 />
             <Button
                 android:layout_width="wrap_content"
