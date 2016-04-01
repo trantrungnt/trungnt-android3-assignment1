@@ -1,5 +1,6 @@
 package techkids.mad3.trungnt.weather;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -14,14 +15,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        initViewButton();
     }
 
     @Override
     public void onClick(View v) {
-        connectButton();
+        connectButton(v);
     }
 
-    private void connectButton()
+    private void initViewButton()
     {
         //tim id cua Button
         btnBlue0 = (Button) this.findViewById(R.id.btnBlue0);
@@ -67,6 +69,74 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnRed4.setOnClickListener(this);
         btnRed5.setOnClickListener(this);
 
+    }
 
+    private void connectButton(View v) {
+        /////////////////////////////////////////////////////////////////////////////////////////
+        //Xet dieu kien de dung phuong thuc click phu hop cho tung nut Button
+        int id = v.getId();
+        /*switch (id)
+        {
+            case R.id.btnRed0:
+                OpenRedActivity();
+            break;
+
+        }*/
+        btnRed0.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                OpenRedActivity();
+            }
+        });
+
+        //kiem co phai la nut btnRed khong?
+        /*if ((id == R.id.btnRed0)
+            || (id == R.id.btnRed1)
+            || (id == R.id.btnRed2)
+            || (id == R.id.btnRed3)
+            || (id == R.id.btnRed4)
+            || (id == R.id.btnRed5)
+            || (id == R.id.btnRed6)
+            ) {
+            OpenRedActivity();
+        }
+
+        //kiem tra day co phai la nut btnBlue khong?
+        if ((id == R.id.btnBlue0)
+            || (id == R.id.btnBlue1)
+            || (id == R.id.btnBlue2)
+            || (id == R.id.btnBlue3)
+            || (id == R.id.btnBlue4)
+            || (id == R.id.btnBlue5)
+           )
+        {
+            OpenBlueActvity();
+        }
+
+        //kiem tra day co phai la nut btnGreen
+        if ((id == R.id.btnGreen0)
+            || (id == R.id.btnGreen1)
+            || (id == R.id.btnGreen2)
+            || (id == R.id.btnGreen3)
+            || (id == R.id.btnGreen4)
+            || (id == R.id.btnGreen5)
+            || (id == R.id.btnGreen6)
+           )
+        {
+            //dong MainActivity
+            this.finish();
+        }*/
+    }
+
+    private void OpenBlueActvity()
+    {
+        Intent intentBlueActivity = new Intent(this, BlueAcitivity.class);
+        startActivity(intentBlueActivity);
+    }
+
+    private void OpenRedActivity()
+    {
+        Intent intentRedActivity = new Intent(this,  RedActivity.class);
+        startActivity(intentRedActivity);
     }
 }

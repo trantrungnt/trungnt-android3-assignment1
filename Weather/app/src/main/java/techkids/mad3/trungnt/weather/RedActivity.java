@@ -25,14 +25,14 @@ public class RedActivity extends AppCompatActivity {
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openMainActivity();
+                OpenMainActivityByRedActivity();
             }
         });
     }
 
-    private void openMainActivity()
+    private void OpenMainActivityByRedActivity()
     {
-        Intent intentMainActivity = new Intent(this, MainActivity.class);
-        startActivity(intentMainActivity);
+        Intent intentMainActivityByRedActivity = new Intent(this, MainActivity.class);
+        startActivity(intentMainActivityByRedActivity);
     }
 }

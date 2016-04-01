@@ -26,15 +26,15 @@ public class BlueAcitivity extends AppCompatActivity {
         btnMainActivity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openMainActivity();
+                OpenMainActivityByBlueActivity();
             }
         });
     }
 
     //dung intent de start MainActivity
-    private void openMainActivity()
+    public void OpenMainActivityByBlueActivity()
     {
-        Intent intentMainActivity = new Intent(this, MainActivity.class);
-        startActivity(intentMainActivity);
+        Intent intentMainActivityByBlueActivity = new Intent(this, MainActivity.class);
+        startActivity(intentMainActivityByBlueActivity);
     }
 }
