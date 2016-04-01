@@ -34,7 +34,7 @@ public class BlueAcitivity extends AppCompatActivity {
     //dung intent de start MainActivity
     public void OpenMainActivityByBlueActivity()
     {
-        Intent intentMainActivityByBlueActivity = new Intent(this, MainActivity.class);
-        startActivity(intentMainActivityByBlueActivity);
+        //dong BlueActivity
+        this.finish();
     }
 }

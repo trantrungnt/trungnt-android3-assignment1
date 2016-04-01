@@ -32,7 +32,7 @@ public class RedActivity extends AppCompatActivity {
 
     private void OpenMainActivityByRedActivity()
     {
-        Intent intentMainActivityByRedActivity = new Intent(this, MainActivity.class);
-        startActivity(intentMainActivityByRedActivity);
+        //dong RedActivity
+        this.finish();
     }
 }
